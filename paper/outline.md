@@ -39,12 +39,10 @@ WC of 1000 - 1500 words (9 - 14 pgs)
 6th grade reading level is considered optimal
 	
 ![readability index](https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/readability-score-2.png)
-Score
-Age
-Grade Level
-7
-11-12
-Sixth Grade
+
+Score 7
+Age 11-12
+Grade Level Sixth Grade
 
  Senter, R.J.; Smith, E.A. (November 1967). "Automated Readability Index". Amrl-Tr. Aerospace Medical Research Laboratories (U.s.). Wright-Patterson Air Force Base: 1–14. PMID 5302480. AMRL-TR-6620. Retrieved March 18, 2012.
 
