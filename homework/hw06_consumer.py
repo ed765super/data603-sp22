@@ -21,8 +21,8 @@ df.collect()
 latitudes = []
 longitudes = []
 for itertator in df.collect():
-  latitudes.append(itertator["iss_position"][0])
-  longitudes.append(itertator["iss_position"][1])
+  latitudes.append(float(itertator["iss_position"][0]))
+  longitudes.append(float(itertator["iss_position"][1]))
 
 import pandas as pd
 d = {'longitude':longitudes,'latitude':latitudes}
@@ -30,11 +30,27 @@ pd_df = pd.DataFrame(d)
 
 pd_df = pd_df.astype('float')
 
-import seaborn as sns
-import matplotlib.pyplot as plt
+longmin = min(longitudes)
+latmin = min(latitudes)
+longmax = max(longitudes)
+latmax = max(latitudes)
+print(longmin, longmax, latmin, latmax)
 
-sns.set_theme()
-sns.relplot(data=pd_df, x="longitude", y="latitude").set(title='Longitude and Latitude of the ISS')
+import matplotlib.pyplot as plt
+from matplotlib import rcParams
+
+img = plt.imread("worldmap.jpg")
+
+longmin = min(longitudes)
+latmin = min(latitudes)
+longmax = max(longitudes)
+latmax = max(latitudes)
+
+# figure size in inches
+plt.scatter(data=pd_df, x="longitude", y="latitude", zorder = 1)
+plt.imshow(img, zorder=0, extent=[longmin, longmax, latmin, latmax])
+plt.title('Longitude and Latitude of the ISS')
 plt.suptitle("taken from 1648833856\n to 1648837448")
 plt.show()
+plt.savefig('hw06_map.jpg')
 
