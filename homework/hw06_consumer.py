@@ -50,7 +50,7 @@ latmax = max(latitudes)
 plt.scatter(data=pd_df, x="longitude", y="latitude", zorder = 1)
 plt.imshow(img, zorder=0, extent=[longmin, longmax, latmin, latmax])
 plt.title('Longitude and Latitude of the ISS')
-plt.suptitle("taken from 1648833856\n to 1648837448")
+plt.suptitle("taken from Timestamp 1648833856\n to Timestamp 1648837448")
 plt.show()
 plt.savefig('hw06_map.jpg')
 
