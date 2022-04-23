@@ -36,7 +36,7 @@ process.
 
 **Spark technology**
 
-![](./media/image4.png){width="2.34375in" height="1.0098064304461942in"}
+![](./media/image4.png)
 
 Apache Spark is a fast multi-purpose computing technology customized for
 extensive data processing (Barnes, 2012). Spark Natural language
@@ -57,8 +57,7 @@ that connect the document content to concepts, presented in graphical
 format. The linking enhances easy access to unstructured content, thus
 enabling interpretation.
 
-![](./media/image2.png){width="5.179687226596675in"
-height="1.859375546806649in"}
+![](./media/image2.png)
 
 Finally, Spark technology uses data annotation pipelines. Annotation
 pipelines involve a combination of different annotation strategies. The
@@ -69,8 +68,7 @@ basin Spark operation (the annotation) includes the annotator type,
 begin, end, result, which is the annotation\'s main output, metadata,
 and embeddings.
 
-![](./media/image1.png){width="3.2371270778652668in"
-height="2.220336832895888in"}
+![](./media/image1.png)
 
 Spark uses scalar comments. Scala comments include single line,
 multiline and documentation comments (Barnes, 2012). Single line
@@ -80,8 +78,7 @@ first lookup; pressing the Control + Q button makes them available.
 
 **Hive strategies**
 
-![](./media/image3.png){width="2.0833333333333335in"
-height="0.5884601924759405in"}
+![](./media/image3.png)
 
 Apache Hive is a freeware program used to manage big data files
 contained in data storage systems, primarily the Hadoop Distributed File
@@ -92,15 +89,13 @@ strategies and techniques in data annotation. The methods include
 bounding boxes, landmarking, polygonal segmentation, and tracking
 (Du,2015).
 
-![](./media/image7.png){width="5.496964129483815in"
-height="3.162516404199475in"}
+![](./media/image7.png)
 
 Bounding boxes are a simple annotation technique that entails drawing a
 square around the intended object. This method works best with
 symmetrical objects and objects whose shape is less relevant.
 
-![](./media/image6.png){width="4.109830489938758in"
-height="2.713542213473316in"}
+![](./media/image6.png)
 
 Landmarking entails applying tiny dots across the thing. The beads help
 perceive and measure the data characteristics. The method is widely
@@ -115,8 +110,7 @@ can classify one frame and then skip many frames before indicating the
 new frame position using interpolating tools. This process is done
 automatically by the annotating tools.
 
-![](./media/image5.png){width="5.434097769028871in"
-height="3.5156255468066493in"}
+![](./media/image5.png)
 
 Additionally, Hive uses a polygonal segmentation strategy. This
 technique is an improvement of the bounding box strategy. It applies
