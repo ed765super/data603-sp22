@@ -25,11 +25,9 @@ include images, text, and audio. On the other hand, comments are short
 descriptions added by programmers to the source code. The comments are
 added to enhance human understanding of the code (Barnes, 2012). The
 compiler usually ignores the comments. Generally, Annotations originated
-from the
-[[ancient]{.underline}](http://gjfb0520.sid.inpe.br/col/dpi.inpe.br/banon/2004/04.21.11.45/doc/BunemanWhereTomorrow.pdf)
-Arab societies in 1000 AD (Buneman, 2000). The scribes included
-annotations on the margins of their manuscripts circulated in the
-communities. Annotations in information technology originated in the
+from the ancient Arab societies in 1000 AD (Buneman, 2000). The scribes
+included annotations on the margins of their manuscripts circulated in
+the communities. Annotations in information technology originated in the
 1980s and 1990s, where they were developed to enable legal data
 processing. Annotations have been evolving since the 1980s, when they
 were first used in information technology. Big data technologies have
@@ -38,7 +36,7 @@ process.
 
 **Spark technology**
 
-![](./media/image2.png){width="2.34375in" height="1.0098064304461942in"}
+![](./media/image4.png){width="2.34375in" height="1.0098064304461942in"}
 
 Apache Spark is a fast multi-purpose computing technology customized for
 extensive data processing (Barnes, 2012). Spark Natural language
@@ -59,6 +57,9 @@ that connect the document content to concepts, presented in graphical
 format. The linking enhances easy access to unstructured content, thus
 enabling interpretation.
 
+![](./media/image2.png){width="5.179687226596675in"
+height="1.859375546806649in"}
+
 Finally, Spark technology uses data annotation pipelines. Annotation
 pipelines involve a combination of different annotation strategies. The
 data is first put through an automatic annotation process which is less
@@ -68,6 +69,9 @@ basin Spark operation (the annotation) includes the annotator type,
 begin, end, result, which is the annotation\'s main output, metadata,
 and embeddings.
 
+![](./media/image1.png){width="3.2371270778652668in"
+height="2.220336832895888in"}
+
 Spark uses scalar comments. Scala comments include single line,
 multiline and documentation comments (Barnes, 2012). Single line
 comments occupy only one line. Only multiline comments occupy more than
@@ -76,7 +80,7 @@ first lookup; pressing the Control + Q button makes them available.
 
 **Hive strategies**
 
-![](./media/image1.png){width="2.0833333333333335in"
+![](./media/image3.png){width="2.0833333333333335in"
 height="0.5884601924759405in"}
 
 Apache Hive is a freeware program used to manage big data files
@@ -86,9 +90,18 @@ enables the programmer to implement new tools and algorithms. The
 labeling of data in Hive is through categorizing. Hive uses various
 strategies and techniques in data annotation. The methods include
 bounding boxes, landmarking, polygonal segmentation, and tracking
-(Du,2015). Bounding boxes are a simple annotation technique that entails
-drawing a square around the intended object. This method works best with
+(Du,2015).
+
+![](./media/image7.png){width="5.496964129483815in"
+height="3.162516404199475in"}
+
+Bounding boxes are a simple annotation technique that entails drawing a
+square around the intended object. This method works best with
 symmetrical objects and objects whose shape is less relevant.
+
+![](./media/image6.png){width="4.109830489938758in"
+height="2.713542213473316in"}
+
 Landmarking entails applying tiny dots across the thing. The beads help
 perceive and measure the data characteristics. The method is widely
 applied in facial recognition to perceive facial features. This approach
@@ -96,21 +109,25 @@ can classify human bodies, tag the posture and identify the
 relationships between various body elements. Landmarking is also used to
 identify necessary objects from an aerial view (Du,2015).
 
-Hive also uses a tracking strategy in the annotation. Tracking involves
-tracing the movement of an object via many frames. An annotator can
-classify one frame and then skip many frames before indicating the new
-frame position using interpolating tools. This process is done
-automatically by the annotating tools. Additionally, Hive uses a
-polygonal segmentation strategy. This technique is an improvement of the
-bounding box strategy. It applies different shapes in identifying the
-position of the targeted object. The most common shape used is a
-polygon. The method is more accurate than the bounding box method
-because it effectively captures boundaries. The figures do not capture
-unnecessary pixels that can disorient the annotator. The technique
-effectively captures asymmetric objects. The final strategy is the use
-of polylines (Du,2015). Polylines are continuous parts of one or many
-lines. The method is applied when the things of interest have a linear
-design.
+Hive also uses a strategy called tracking when annotating. Tracking
+involves tracing the movement of an object via many frames. An annotator
+can classify one frame and then skip many frames before indicating the
+new frame position using interpolating tools. This process is done
+automatically by the annotating tools.
+
+![](./media/image5.png){width="5.434097769028871in"
+height="3.5156255468066493in"}
+
+Additionally, Hive uses a polygonal segmentation strategy. This
+technique is an improvement of the bounding box strategy. It applies
+different shapes in identifying the position of the targeted object. The
+most common shape used is a polygon. The method is more accurate than
+the bounding box method because it effectively captures boundaries. The
+figures do not capture unnecessary pixels that can disorient the
+annotator. The technique effectively captures asymmetric objects. The
+final strategy is the use of polylines (Du,2015). Polylines are
+continuous parts of one or many lines. The method is applied when the
+things of interest have a linear design.
 
 Hive uses commenting strategies that are also used by many big data
 technologies. The strategies include: inline commenting, function
@@ -124,12 +141,10 @@ of code.
 
 Annotation in Hive technologies is done on an employer-by-employer basis
 (Du,2015). This means that the employer will determine the technique to
-be used and his
-[[processing]{.underline}](https://books.google.com/books?hl=en&lr=&id=4S7WBgAAQBAJ&oi=fnd&pg=PP1&dq=data+annotation+and+commenting+in+hive+&ots=KUjVNVjFPc&sig=wLzbM5eJJmhPSdd7tJiwXzv-3fA)
-needs. For instance, an employer may need to trace an object via many
-frames implying that he would have to use the tracking annotation
-technique. However, Hive has a universal rubric for code commenting. It
-applies Scala commenting strategy.
+be used and his processing needs. For instance, an employer may need to
+trace an object via many frames implying that he would have to use the
+tracking annotation technique. However, Hive has a universal rubric for
+code commenting. It applies Scala commenting strategy.
 
 There are specific guidelines that dictate how comments and annotations
 should be applied. These guidelines are universal and do not vary with
@@ -140,8 +155,8 @@ should consist of reasons for a specific function, for instance, reasons
 for including a certain function. Additionally, comments should not
 refer to other sources or comments implying that comments should fully
 qualify themselves (Xia, 2019). Finally, the author should write
-[[comments]{.underline}](https://ieeexplore.ieee.org/abstract/document/8812050/?casa_token=l1iK2IG-VhIAAAAA:R-aywipVTgapy1Xf-FyXROYMOuh4iGwKjItwivg8fwDBKkvuc9NCt39vT3dOW7vceHQXUerTupo6)
-while writing the code to ensure that he does not forget the logic.
+comments while writing the code to ensure that he does not forget the
+logic.
 
 **Conclusion**
 
@@ -183,4 +198,22 @@ IEEE.
 Spark Tech logo: https://www.facebook.com/sparktechllc/
 
 Hive Tech Logo:
-https://media-exp1.licdn.com/dms/image/C560BAQHnjeCg_shgqg/company-logo_200_200/0/1519909314480?e=2147483647&v=beta&t=A44IVd28enCpqTtleskj7yNQkJAOW1AKwNLyFr9JUGc
+[[https://media-exp1.licdn.com/dms/image/C560BAQHnjeCg_shgqg/company-logo_200_200/0/1519909314480?e=2147483647&v=beta&t=A44IVd28enCpqTtleskj7yNQkJAOW1AKwNLyFr9JUGc]{.underline}](https://media-exp1.licdn.com/dms/image/C560BAQHnjeCg_shgqg/company-logo_200_200/0/1519909314480?e=2147483647&v=beta&t=A44IVd28enCpqTtleskj7yNQkJAOW1AKwNLyFr9JUGc)
+
+Bounding Boxes:
+
+[[https://keymakr.com/blog/content/images/2021/05/boxes.jpg]{.underline}](https://keymakr.com/blog/content/images/2021/05/boxes.jpg)
+
+Polygonal Segmentation:
+[[https://www.cogitotech.com/assets/uploads/media-uploader/semantic-segmentation-for-irregular-shapes1625645254.jpg]{.underline}](https://www.cogitotech.com/assets/uploads/media-uploader/semantic-segmentation-for-irregular-shapes1625645254.jpg)
+
+Landmarking:
+
+[[https://miro.medium.com/max/1024/1\*kmu_t1iNbOipwozjxCG6og.jpeg]{.underline}](https://miro.medium.com/max/1024/1*kmu_t1iNbOipwozjxCG6og.jpeg)
+
+scala comments:
+[[https://user-images.githubusercontent.com/861035/26904412-717c7280-4bea-11e7-8686-aeb14671da9a.png]{.underline}](https://user-images.githubusercontent.com/861035/26904412-717c7280-4bea-11e7-8686-aeb14671da9a.png)
+
+Data annotation pipeline:
+
+[[https://www.researchgate.net/profile/Robert-Stevens-19/publication/221197942/figure/fig1/AS:305466618990592@1449840325068/The-flow-of-information-through-the-annotation-pipeline-A-large-variety-of-databases-or.png]{.underline}](https://www.researchgate.net/profile/Robert-Stevens-19/publication/221197942/figure/fig1/AS:305466618990592@1449840325068/The-flow-of-information-through-the-annotation-pipeline-A-large-variety-of-databases-or.png)
