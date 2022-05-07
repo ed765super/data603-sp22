@@ -1,3 +1,11 @@
+# How to run:
+
+The entire notebook is already executed. Therefore there is no reason to run the code. 
+
+However, *if* you want to run the code, I have formatted the notebook such that, if you have "Arrests.csv" downloaded in the same folder you are running the notebook, you can run all and it should execute from top to bottom with no issues.
+
+I **highly** reccommend not running it unless you have a lark block of time as a major part of the notebook is showing the time saved by using pyspark. Thus it takes a long time to run.
+
 # Final Project Rubric
 
 Each category is worth 20% of the overall grade.  Getting all "Adequate" marks will be worth 90%.
